@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    height: 25px;
+    background-color: orange;
+    padding: 5px;
+    
+  }
+  .menu{
+      display: flex;
+      flex-direction: column;
+      width:max-content;
+      
+      padding-left: 10px;
+      
+  }
+
+  .row{
+     
+      background-color: orange;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-top: 5px;
+      padding-left: 10px;
+      display: none;
+      position: relative;
+      
+      
+      
+     
+  }
+
+  
+  .search {
+    flex: 1;
+  }
+
+.box{
+    height: max-content;
+    background: rgb(247, 247, 247);
+}
+.box1{
+    height: max-content;
+    background: rgb(247, 247, 247);
+}
+.box2{
+    height: max-content;
+    background: rgb(247, 247, 247);
+}
+.hidden{
+    height: max-content;
+    background: aqua;
+    display: none;
+}
+.hidden1{
+    height: max-content;
+    background: aqua;
+    display: none;
+}
+.hidden2
+    {
+        height: max-content;
+        background: aqua;
+        display: none;
+    }
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+}
+.button{
+    background: coral;
+    padding: 1em 2em;
+    color:white;
+    border:0;
+}
+.button:hover{
+    background: black;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.modal-content{
+    display: block;
+   
+    background-color: #f4f4f4;
+    margin: 10% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2);
+}
+.closeBtn{
+    color:#ccc;
+    float: right;
+    font-size: 2rem;
+
+}
+
+.closeBtn:hover,.closeBtn:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
