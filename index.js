@@ -1,4 +1,4 @@
-$('.box').dblclick(function(){
+$('.box').click(function(){
     $('.hidden').slideToggle('slow');
 });
 $('.box1').click(function(){
